@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/api/v1'
+const url = 'https://eventiabackendproject10.vercel.app'
 
 export const API = async ({
   endpoint,
@@ -22,7 +22,3 @@ export const API = async ({
 
   return { status: res.status, data }
 }
-
-//todo Mejoras:
-// Esqueleto de carga//!
-// Versión teléfonos //!
