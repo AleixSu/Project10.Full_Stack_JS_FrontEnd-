@@ -1,14 +1,14 @@
-const url = 'https://eventiabackendproject10.vercel.app'
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/v1'
 
 export const API = async ({
   endpoint,
   method = 'GET',
   body,
   isJSON = true,
-  token = null // Por defecto será null pero en el caso de que lo envíen irá a headers
+  token = null
 }) => {
   const headers = {
-    Authorization: `Bearer ${token}` //Metemos el token en headers
+    Authorization: `Bearer ${token}`
   }
   isJSON ? (headers['Content-Type'] = 'application/json') : null
 

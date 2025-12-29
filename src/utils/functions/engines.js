@@ -30,7 +30,7 @@ export const filterEngine = async (e, container) => {
   })
 
   const eventsToRend = filtersChecked
-    .filter((f) => f.activated)
+    .filter((f) => f.activated) 
     .map((f) => f.country)
 
   loadingEvents(container)
