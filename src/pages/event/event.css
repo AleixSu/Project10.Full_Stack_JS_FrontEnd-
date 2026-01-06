@@ -5,7 +5,7 @@
   z-index: 3;
 }
 .eventsBgImg {
-  background: url('./public/images/eventsBg.jpg') center/cover no-repeat;
+  background: url('./images/eventsBg.jpg') center/cover no-repeat;
 }
 
 #articleEvents {

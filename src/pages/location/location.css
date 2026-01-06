@@ -11,7 +11,7 @@
   height: 100svh;
 }
 .locationsBgImg {
-  background: url('./public/images/locationsBg.png') center/cover no-repeat;
+  background: url('./images/locationsBg.png') center/cover no-repeat;
 }
 
 #backgroundImg::after {
